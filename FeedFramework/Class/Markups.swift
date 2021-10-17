@@ -35,8 +35,41 @@ public class Markups {
      * sub item 3.1
      * sub item 3.2
      */
-    public var bulletedLists: Int?
+    public var bulletedList: Int?
     
+    /**
+     An example of using a term list
+    
+    - term slow: Moves slightly faster than a snail..
+    - term medium: Moves at an average speed.
+    - term fast: Moves faster than a hare.
+     */
+    public var termList: Int?
+    
+    
+    /**
+     An example of using the list
+     
+     **Numbered List**
+     1. Text
+     2. Image
+     3. Video
+     
+     **Bulleted List**
+     * item 1
+     * item 2
+     * item 3
+     * sub item 3.1
+     * sub item 3.2
+     
+     **TermList**
+     - term slow: Moves slightly faster than a snail..
+     - term medium: Moves at an average speed.
+     - term fast: Moves faster than a hare.
+     */
+    public var list: [String]?
+
+
     
     /**
      An example of using the copyright field
@@ -127,6 +160,18 @@ public class Markups {
      */
     public var note: String?
     
+    /**
+     An example of using the asides
+     
+     - Note: With Swift, function arguments can now have default values.
+     - Important: The beginning is the most important part of the work.
+     - Warning: Read and verify guideline carefully before submitting code for Review.
+     - Tip: Swift doc tips for those getting started.
+     - Experiment: Check Markup class for all reference
+     */
+    
+    public var asides: String?
+
     /**
      An example of using the version field
      

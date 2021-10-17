@@ -80,7 +80,7 @@ public class JSONFeed {
     ///
     /// - Returns: Feed object
     ///
-    /// - Throws: `IndexOutOfBoundsException` if the quantity is more than item count.
+    /// - Throws: `IndexOutOfBoundsException` if the count is more than total item count.
     public func getFeedsFor(_ count: Int) throws -> Feed? {
         return nil
     }
