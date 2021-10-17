@@ -1,0 +1,25 @@
+{
+    "version": "1",
+    "title": "i.vikas",
+    "home_page_url": "http://techstackzone.com/",
+    "feed_url": "https://medium.com/@i.vikas",
+    "items": [
+        {
+            "id": "1",
+            "content_title": "Improve the quality of iOS code using Static Analyzer",
+            "url": "https://medium.com/@i.vikas/improve-the-quality-of-ios-code-using-static-analyzer-a54ed6780fc2"
+        },
+        {
+            "id": "2",
+            "content_title": "What’s deprecated in the iOS 15 SDK",
+            "url": "https://medium.com/@i.vikas/whats-deprecated-in-the-ios-15-sdk-13bb2906b5fa"
+        },
+        {
+            "id": "3",
+            "content_title": "Auto Scale Font Size in Swift without using Dynamic Type",
+            "url": "https://medium.com/@i.vikas/auto-scale-font-size-in-swift-without-using-dynamic-type-59d7349a41b3?source=user_profile"
+        }
+    ]
+}
+
+
